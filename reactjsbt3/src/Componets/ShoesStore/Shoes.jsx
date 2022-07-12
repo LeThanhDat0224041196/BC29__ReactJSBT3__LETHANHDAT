@@ -7,11 +7,12 @@ export default class Shoes extends Component {
 
     return (
     <div className="card" style={{width: 400}}>
-        <img className="card-img-top" src={image} alt="Card image" />
+        <img className="card-img-top" src={image} alt />
         <div className="card-body">
             <h4 className="card-title">{name}</h4>
             <p className="card-text">{price}</p>
-            <a href="#" className="btn btn-dark">Add to card</a>
+            <div className="mb-2">{this.props.children}</div>
+            <button onClick={() => this.props.showDescription(description)} href="#" className="btn btn-dark">Add to card</button>
         </div>
     </div>
 
