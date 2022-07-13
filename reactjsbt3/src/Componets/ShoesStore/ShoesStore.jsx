@@ -17,13 +17,15 @@ export default class ShoesStore extends Component {
     })
   }
   
-  showDescription = (description)=>{
-    alert(description)
-  }
+  // showDescription = (description)=>{
+  //   alert(description)
+  // }
   
   
   
   render() {
-    return <div className='row'>{this.renderShoesList()}</div>;
+    return <div className='row'>
+      {this.renderShoesList()}
+      </div>;
   }
 }

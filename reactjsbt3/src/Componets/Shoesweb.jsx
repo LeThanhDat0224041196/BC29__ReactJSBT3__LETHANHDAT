@@ -14,8 +14,8 @@ export default class Shoesweb extends Component {
         </div>
         <div className="col-9">
             <div className="tab-content" id="v-pills-tabContent">
-            <div className="tab-pane w3-animate-right fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab"><Shoes /></div>
-            <div className="tab-pane w3-animate-right fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab"><ShoesStore /></div>
+            <div className="tab-pane w3-animate-right fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab"><h1>Shoes Shop</h1><ShoesStore /></div>
+            <div className="tab-pane w3-animate-right fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab"></div>
             </div>
         </div>
         </div>
