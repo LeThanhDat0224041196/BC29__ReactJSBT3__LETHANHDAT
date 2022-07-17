@@ -4,14 +4,16 @@ import danhSachGiay from "../../Data/data.json";
 import Shoes from './Shoes';
 
 
+
 export default class ShoesStore extends Component {
   renderShoesList = ()=>{
     return danhSachGiay.map((ele)=>{
       return(
         <div className='col-4' key={ele.id}>
-          <Shoes showDescription={this.showDescription} item={ele}>
+          <Shoes item={ele}>
 
           </Shoes>
+          
         </div>
       )
     })
@@ -26,6 +28,7 @@ export default class ShoesStore extends Component {
   render() {
     return <div className='row'>
       {this.renderShoesList()}
+      
       </div>;
   }
 }
