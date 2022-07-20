@@ -18,7 +18,7 @@ export default class ShoesModal extends Component {
     return danhSachGiay.map((ele)=>{
       return(
         <table className="table" key={ele.id}>
-          <ShoesModalList selectedShoes={ele} selectedShoesList={this.setState.selectedShoess}>
+          <ShoesModalList selectedShoes={ele} key={ele.id}>
 
           </ShoesModalList>
         </table>

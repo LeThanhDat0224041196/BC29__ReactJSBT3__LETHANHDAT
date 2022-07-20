@@ -8,23 +8,23 @@ export default class ShoesModalList extends Component {
        
               <tbody>
                 <tr>
-                  <td>Name</td>
+                  <td>Name:</td>
                   <td>{name}</td>
                 </tr>
                 <tr>
-                  <td>Alias</td>
+                  <td>Alias:</td>
                   <td>{alias}</td>
                 </tr>
                 <tr>
-                  <td>Price</td>
+                  <td>Price:</td>
                   <td>{price}$</td>
                 </tr>
                 <tr>
-                  <td>Description</td>
+                  <td>Description:</td>
                   <td>{description}</td>
                 </tr>
                 <tr>
-                  <td>Quantity</td>
+                  <td>Quantity:</td>
                   <td>{quantity}</td>
                 </tr>
               </tbody>
